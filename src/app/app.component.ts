@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'bacasable';
+  public fruit = "";
+  public addFruit() {
+    console.log( this.fruit)
+
+  }
 }
